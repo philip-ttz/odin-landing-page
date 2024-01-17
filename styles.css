@@ -28,7 +28,7 @@ body, .header{
 .header-one{
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 200px;
     margin-bottom: 20px;
 }
 
@@ -36,12 +36,62 @@ body, .header{
     gap: 20px;
 }
 
-.header-logo{
+h3{
     color: #F9FAF8;
-    font-weight: 24px;
+    font-size: 24px;
 }
 
 .link{
     color: #E5E7EB;
-    font-weight: 18px;
+    font-size: 18px;
+}
+
+.header-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    margin-bottom: 20px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.introduction button{
+    border-radius: 15px;
+    max-width: fit-content;
+    background-color: #3882F6;
+    padding: 10px;
+    color: #F9FAF8;
+    font-size: 24px;
+    align-self: center;
+}
+
+h1{
+    color: #F9FAF8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-two div{
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+#image{
+    max-width: 100%;
+    max-height: 100%;
 }
