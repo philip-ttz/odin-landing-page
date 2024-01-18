@@ -141,3 +141,22 @@ h2{
 .subtitals{
     text-align: center;
 }
+
+.content-two{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+.text p, .text2 p{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.text2 p, .text2{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
