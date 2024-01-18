@@ -204,3 +204,10 @@ h2{
     font-size: 12px;
     width: 100px;
 }
+
+.footer, .footer p{
+    background-color: #1F2937;
+    padding: 10px 200px;
+    text-align: center;
+    font-size: 12px;
+}
